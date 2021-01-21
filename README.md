@@ -19,6 +19,13 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `Using lib as below :`
+
+- "check-prop-types": "^1.1.2",
+- "enzyme": "^3.11.0",
+- "enzyme-adapter-react-16": "^1.15.6",
+- "jest-enzyme": "^7.1.2"
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
