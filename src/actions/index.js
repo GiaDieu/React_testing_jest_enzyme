@@ -1,1 +1,1 @@
-export * from './correctGuess';
+export * from './guessWord';
