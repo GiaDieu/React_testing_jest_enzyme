@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { guessWord } from '../../actions/guessWord';
 export class UnconnectedInput extends Component {
-  state = { currentGuess: null };
+  state = { currentGuess: '' };
   submitGuessedWord = (e) => {
     e.preventDefault();
 
     const guessedWord = this.state.currentGuess;
     if (guessedWord && guessedWord.length > 0) {
       this.props.guessWord(guessedWord);
+      this.setState({ currentGuess: '' });
     }
   };
   render() {
