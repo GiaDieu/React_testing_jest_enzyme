@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { act } from 'react-dom/test-utils';
 import { actionTypes } from './types';
 
 export const getSecretWord = () => {
